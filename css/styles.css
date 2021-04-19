@@ -3887,7 +3887,6 @@ input[type=button].btn-block {
   pointer-events: none;
   cursor: default;
 }
-
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
 }
@@ -3946,6 +3945,13 @@ input[type=button].btn-block {
 }
 .tab-content > .active {
   display: block;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 
 .navbar {
@@ -10119,7 +10125,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/bkgrd.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
