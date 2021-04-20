@@ -3874,6 +3874,9 @@ input[type=button].btn-block {
   margin-bottom: 0;
   list-style: none;
 }
+.navbg{
+    background: rgba(0, 0, 0, 0.4);;
+}
 
 .nav-link {
   display: block;
