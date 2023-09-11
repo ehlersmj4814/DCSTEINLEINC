@@ -568,11 +568,12 @@ pre code {
     max-width: 960px;
   }
 }
+/* RE-ADD THIS IF ADDING ADDITIONAL MENU BAR DROPDOWNS
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
-}
+}*/
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -4178,6 +4179,7 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
+/* RE-ADD THIS IF ADDING ADDITIONAL MENU BAR DROPDOWNS
 @media (min-width: 1200px) {
   .navbar-expand-xl {
     flex-flow: row nowrap;
@@ -4208,7 +4210,7 @@ input[type=button].btn-block {
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
-}
+}*/
 .navbar-expand {
   flex-flow: row nowrap;
   justify-content: flex-start;
@@ -10162,6 +10164,11 @@ header.parksidebg
 header.steinlestoragebg
 {
      background-image: url("../assets/img/steinlestorage.jpg");
+}
+header.dccoldbg
+{
+    background-image: url("../assets/img/dccold.jpg");
+    background-size:contain;
 }
 .logosize img{
   width: 180px;
